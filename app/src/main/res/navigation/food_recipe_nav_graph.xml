@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/food_recipe_nav_graph"
+    app:startDestination="@id/foodRecipeFragment">
+
+    <fragment
+        android:id="@+id/foodRecipeFragment"
+        android:name="com.example.foodrecipes.presentation.fragments.FoodRecipeFragment"
+        android:label="Recipe"
+        tools:layout="@layout/fragment_food_recipe" >
+        <action
+            android:id="@+id/action_foodRecipeFragment_to_recipeFilterBottomSheetFrag"
+            app:destination="@id/recipeFilterBottomSheetFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteRecipeFragment"
+        android:name="com.example.foodrecipes.presentation.fragments.FavoriteRecipeFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite_recipe" />
+    <fragment
+        android:id="@+id/jokeRecipeFragment"
+        android:name="com.example.foodrecipes.presentation.fragments.JokeRecipeFragment"
+        android:label="Joke"
+        tools:layout="@layout/fragment_joke_recipe" />
+    <dialog
+        android:id="@+id/recipeFilterBottomSheetFrag"
+        android:name="com.example.foodrecipes.presentation.fragments.RecipeFilterBottomSheetFrag"
+        android:label="RecipeFilterBottomSheetFrag" />
+</navigation>

@@ -1,0 +1,10 @@
+{"meal":{
+    "1":{"title":"Main Course","id":"1"},
+    "2":{"title":"Side Dish","id":"2"},
+    "3":{"title":"Desert","id":"3"},
+    "4":{"title":"Salad","id":"4"},
+    "5":{"title":"Breakfast","id":"5"},
+    "6":{"title":"Soup","id":"6"},
+    "7":{"title":"Snack","id":"7"},
+    "8":{"title":"Beverage","id":"8"}
+}}

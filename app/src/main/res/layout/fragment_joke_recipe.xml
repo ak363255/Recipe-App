@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/flower_bg"
+        tools:context=".presentation.fragments.JokeRecipeFragment">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="16dp"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/joke_tv"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:padding="8dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="italic"
+                    android:layout_marginVertical="8dp"
+                    android:paddingVertical="8dp"
+                    android:alpha="1.0"
+                    android:background="@color/ads_303030"
+                    android:gravity="center_horizontal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="Joke Recipe Fragment" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:id="@+id/no_internet_connection_ui"
+            layout="@layout/no_result_ui"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background = "@color/white"
+            android:visibility="gone"
+            android:id="@+id/loader_view"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

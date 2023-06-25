@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/check_img"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:padding="2dp"
+            android:backgroundTint="@color/ads_39A53D"
+            app:tint="@color/white"
+            android:background="@drawable/circle_bg_d8d8d8"
+            android:src="@drawable/ic_check"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/step_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toTopOf="@id/check_img"
+            app:layout_constraintStart_toEndOf="@id/check_img"
+            android:layout_marginEnd="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/ads_d7d7d7"
+            app:layout_goneMarginStart="4dp" />
+
+        <TextView
+            android:id="@+id/ingredient_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:flow_horizontalBias="0.0"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@id/step_tv"
+            app:layout_constraintStart_toStartOf="@+id/step_tv"
+            app:layout_constraintTop_toBottomOf="@id/step_tv"
+            android:layout_marginTop="4dp" />
+
+        <com.example.foodrecipes.presentation.widget.FlowLayout
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:horizontalSpacing="16dp"
+            app:verticalSpacing="12dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/ingredient_tv"
+            app:layout_constraintTop_toBottomOf="@+id/ingredient_tv" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
