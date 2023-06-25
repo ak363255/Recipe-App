@@ -1,0 +1,1 @@
+D:\FoodRecipes\buildSrc\build\classes\kotlin\main\Dependencies$Versions.class;D:\FoodRecipes\buildSrc\build\classes\kotlin\main\Dependencies.class;D:\FoodRecipes\buildSrc\build\classes\kotlin\main\ProjectLevelDependencies.class
