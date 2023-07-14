@@ -5,14 +5,12 @@ Food Recipe Application where we can browse recipes from various different kind 
 
 
 ## Screenshots
-
-https://github.com/ak363255/Recipe-App/blob/master/FoodRecipe/HomePage.png
-
-![Recipe_Instructions](https://github.com/ak363255/Recipe-App/assets/36182994/4e32ce71-d078-4bc4-bcd6-de797d665387)  ![Recipe_Search](https://github.com/ak363255/Recipe-App/assets/36182994/af30227f-c548-4d22-a8c1-7c7753a97299)
-
-![Favorite_page](https://github.com/ak363255/Recipe-App/assets/36182994/74bc05e0-3ba4-46b5-9630-820d5726ee11)  ![Random_food_Joke](https://github.com/ak363255/Recipe-App/assets/36182994/d4eafd14-61cd-40e6-a293-6f78eac18136)
-
-
+![HomePage](https://github.com/ak363255/Recipe-App/assets/36182994/ca0b884a-bf78-4c87-be0e-cc8e22a1357a)
+![Recipe_Overview](https://github.com/ak363255/Recipe-App/assets/36182994/76674ed9-35d6-40c1-80aa-e88d84c33735)
+![Recipe_Instructions](https://github.com/ak363255/Recipe-App/assets/36182994/f47a1e53-80b8-4d0a-9db7-8a291356cadb)
+![Favorite_page](https://github.com/ak363255/Recipe-App/assets/36182994/d3935653-e648-4751-bf2e-45404be1c756)
+![Random_food_Joke](https://github.com/ak363255/Recipe-App/assets/36182994/d4a1d20c-c014-4a74-bc01-c9fec32dabb4)
+![Recipe_Search](https://github.com/ak363255/Recipe-App/assets/36182994/44680d67-7b45-45e9-95d4-07c9baa71cbd)
 
 ## Features 
 - Develop a fully functional Android App
