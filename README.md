@@ -43,8 +43,6 @@ Food Recipe Application where we can browse recipes from various different kind 
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
-
 Our Application will work with remote and local data Sources, and for remote data source we will third party api for food recipes named - Spoonacular and to store or cache the locally using Room Db
 
 -  Paste your own Spoonacular api in gradle.properties file - recipeReleaseBaseUrl 
