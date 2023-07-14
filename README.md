@@ -20,9 +20,6 @@ Food Recipe Application where we can browse recipes from various different kind 
 
 <img src="https://github.com/ak363255/Recipe-App/assets/36182994/d4a1d20c-c014-4a74-bc01-c9fec32dabb4" alt="project-screenshot" width="250" height="500/">
 
-
-<img src="https://github.com/ak363255/Recipe-App/assets/36182994/44680d67-7b45-45e9-95d4-07c9baa71cbd" alt="project-screenshot" width="250" height="500/">
-
 <img src="https://github.com/ak363255/Recipe-App/assets/36182994/e307a925-e611-4ceb-91bc-4c7cff25aa9f" alt="project-screenshot" width="250" height="500/">
 
 ## Features 
