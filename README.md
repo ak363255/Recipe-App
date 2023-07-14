@@ -30,7 +30,7 @@ Food Recipe Application where we can browse recipes from various different kind 
 - Kotlin Coroutines
 - Navigation Component
 - Data Binding
--  MVVM (MOdel-View View MOdel)
+-  Model–view–viewmodel (MVVM)
 - Clean Architecture
 - Flow
 - REST API
